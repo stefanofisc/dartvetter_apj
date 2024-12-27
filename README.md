@@ -4,9 +4,9 @@ This repository contains the code for implementing DART-Vetter, a Convolutional 
 
 ## Features
 - **Binary/Multi-class Classification**: in binary classification mode, the model distinguishes planetary transits and contact eclipsing binaries from other phenomena like stellar variability, instrumental artifacts and non-contact eclipsing binaries. With a simple change in the configuration file and using a suitable dataset, the model is able to solve multi-class classification tasks.
-- **Configurable Architecture**: the network architecture is highly customizable, with parameters defined in an external configuration file.
-- **Ease of Use**: includes scripts for training, testing, and evaluating the model on custom datasets.
-- **Visualization Tools**: generates performance metrics like PR curves and ROC curves.
+- **Configurable architecture**: the network architecture is highly customizable, with parameters defined in an external configuration file.
+- **Ease of use**: includes scripts for training, testing, and evaluating the model on custom datasets.
+- **Visualization tools**: generates performance metrics like PR curves and ROC curves.
 
 ## Usage
 - **Configuration**: the model parameters and dataset paths are defined in the config_cnn.yaml file. Update the file with your dataset paths and desired hyperparameters;
