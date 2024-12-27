@@ -22,3 +22,6 @@ cd dart-vetter
 
 2. Install required Python packages:
 pip install -r requirements.txt
+
+If case of any error during step 2, try to run this command:
+conda env create -f dartvetter_apj.yml
