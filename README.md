@@ -3,7 +3,7 @@
 This repository contains the code for implementing DART-Vetter, a Convolutional Neural Network (CNN) designed to classify Threshold Crossing Events (TCEs) as either planetary transits or false positives. The model is tailored for photometric data collected from space-based missions like NASA's Kepler and Transiting Exoplanet Survey Satellite (TESS).
 
 ## Features
-- **Binary Classification**: the model distinguishes planetary transits and contact eclipsing binaries from other phenomena like stellar variability, instrumental artifacts and non-contact eclipsing binaries.
+- **Binary/Multi-class Classification**: in binary classification mode, the model distinguishes planetary transits and contact eclipsing binaries from other phenomena like stellar variability, instrumental artifacts and non-contact eclipsing binaries. With a simple change in the configuration file and using a suitable dataset, the model is able to solve multi-class classification tasks.
 - **Configurable Architecture**: the network architecture is highly customizable, with parameters defined in an external configuration file.
 - **Ease of Use**: includes scripts for training, testing, and evaluating the model on custom datasets.
 - **Visualization Tools**: generates performance metrics like PR curves and ROC curves.
